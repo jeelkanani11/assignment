@@ -1,0 +1,74 @@
+1. What is JavaScript? 
+ans:JavaScript is the Programming Language for the Web.JavaScript can update and change both HTML and CSS.JavaScript can calculate, manipulate and validate data.
+
+2.What is the use of isNaN function?
+ans:In JavaScript NaN is short for "Not-a-Number".The isNaN() method returns true if a value is NaN.The isNaN() method converts the value to a number before testing it.
+
+3.What is negative Infinity? 
+ans:NEGATIVE_INFINITY is a property of the JavaScript Number object.You can only use it as Number.NEGATIVE_INFINITY.
+
+4.Which company developed JavaScript?
+ans:In September 1995, a Netscape programmer named Brandan Eich developed javascript.
+
+5.What are undeclared and undefined variables? 
+ans:*Undefined: 
+       It occurs when a variable has been declared but has not been assigned with any value. Undefined is not a keyword.
+    
+    *Undeclared:
+      It occurs when we try to access any variable that is not initialized or declared earlier using var or const keyword. If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with return value as “undefined”. The scope of the undeclared variables is always global.
+
+6.Write the code for adding new elements dynamically?
+ans:<script>
+         const para = document.createElement("p");
+        para.innerText="this is para";
+        document.body.appendChild(para)
+    </script>
+
+7.What is the difference between ViewState and SessionState? 
+ans:The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too.
+
+8.What is === operator? 
+ans:The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+9.How can the style/class of an element be changed? 
+ans:<script>
+        const para = document.getElementById('main');
+        para.style.color='red'
+    </script>
+
+10.How to read and write a file using JavaScript?
+ans:
+
+11.What are all the looping structures in JavaScript? 
+ans:There are four types of loops in JavaScript. 1) for loop
+  						 2) while loop
+   						 3) do-while loop
+  						 4) for-in loop
+
+12.How can you convert the string of any base to an integer in JavaScript? 
+ans:In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself.
+	Syntax:
+	parseInt(Value, radix)
+
+13.What is the function of the delete operator? 
+ans:
+
+14.What are all the types of Pop up boxes available in JavaScript?
+ans:JavaScript has three kind of popup boxes: 1) Alert box 
+					      2) Confirm box
+					      3) Prompt box.
+
+15.What is the use of Void (0)? 
+ans:
+
+16.How can a page be forced to load another page in JavaScript? 
+ans:
+
+17.What are the disadvantages of using innerHTML in JavaScript? 
+ans:->Event handlers attached to any DOM element are preserved.
+    ->Replacement is done everywhere.
+    ->It is not possible to append innerHTML.
+    ->Breaks the document.
+    ->Used for Cross-site Scripting.
+   
+
