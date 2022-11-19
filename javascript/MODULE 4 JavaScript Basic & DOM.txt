@@ -36,8 +36,6 @@ ans:<script>
         para.style.color='red'
     </script>
 
-10.How to read and write a file using JavaScript?
-ans:
 
 11.What are all the looping structures in JavaScript? 
 ans:There are four types of loops in JavaScript. 1) for loop
@@ -52,6 +50,17 @@ ans:In JavaScript parseInt() function (or a method) is used to convert the passe
 
 13.What is the function of the delete operator? 
 ans:
+	<script>
+	let emp = {
+		firstName: "Raj",
+		lastName: "Kumar",
+		salary: 40000
+	}
+
+	console.log(delete emp.salary);
+	console.log(emp);
+</script>
+
 
 14.What are all the types of Pop up boxes available in JavaScript?
 ans:JavaScript has three kind of popup boxes: 1) Alert box 
@@ -59,10 +68,16 @@ ans:JavaScript has three kind of popup boxes: 1) Alert box
 					      3) Prompt box.
 
 15.What is the use of Void (0)? 
-ans:
+ans:Used with void(0) means, do nothing - don't reload, don't navigate, do not run any code. 
 
 16.How can a page be forced to load another page in JavaScript? 
 ans:
+	<script>
+        function force_load(){
+            window.location='https://www.google.com'
+        }                   
+                                
+    </script>
 
 17.What are the disadvantages of using innerHTML in JavaScript? 
 ans:->Event handlers attached to any DOM element are preserved.
